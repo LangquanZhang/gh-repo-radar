@@ -1,0 +1,14 @@
+# ---- 运行产物 ----
+result.json
+result*.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 本地凭据：绝不入库 ----
+token.env
+.env
+*.token
